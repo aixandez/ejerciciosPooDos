@@ -21,6 +21,12 @@ public class Ejercicio10 {
         
         Ejercicio10 primerafrase = new Ejercicio10("Hola como estas");
         System.out.println(primerafrase.eliminarvocales());
+
+        Ejercicio10 segundafrase = new Ejercicio10("Hola mundo");
+        System.out.println(segundafrase.eliminarvocales());
+
+        Ejercicio10 tercerafrase = new Ejercicio10("Universidad nacional del oeste");
+        System.out.println(tercerafrase.eliminarvocales());
     }
 
 }
